@@ -118,12 +118,12 @@ body {
 
     20%,
     80% {
-        margin-left: -2px;
+        margin-left: -12px;
     }
 
     40%,
     60% {
-        margin-left: -2px;
+        margin-left: 12px;
     }
 }
 

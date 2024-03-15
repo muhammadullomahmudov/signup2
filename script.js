@@ -14,6 +14,7 @@ const text = document.querySelector('.text');
 const text2 = document.querySelector('.text2');
 const errorbox = document.querySelector('.erorbox');
 const errorbox2 = document.querySelector('.errorbox2');
+const forminner = document.querySelector('.forminner');
 
 
 form.addEventListener('submit', function(e) {
@@ -22,7 +23,8 @@ form.addEventListener('submit', function(e) {
         text.textContent = "Iltimos @gmail.com qo'ying"
         errorbox.style.display = 'block'
         email.classList.add('red')
-        form.classList.add('animation')
+        email.classList.add('animation')
+        password.classList.add('animation')
     }
     else {
         text.textContent = ""
@@ -35,7 +37,8 @@ form.addEventListener('submit', function(e) {
         text2.textContent = "Parol kamida 3ta harifli bo'lishi kerak"
         errorbox2.style.display = 'block'
         password.classList.add('red')
-        form.classList.add('animation')
+        .classList.add('animation')
+        password.classList.add('animation')
     }
     else {
         text2.textContent = ""
