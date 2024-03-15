@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+    transition: all 0.3s ease;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5372F0;
+}
+
+.form {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #fff;
+    width: 380px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 30px;
+    font-family: monospace;
+    color: #000;
+}
+
+.email {
+    padding: 12px 50px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    outline: none;
+}
+
+.password {
+    padding: 12px 50px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn {
+    background-color: #5372F0;
+    color: #fff;
+    text-align: center;
+    padding: 12px 115px;
+    border: 1px solid #5372F0;
+    border-radius: 5px;
+}
+
+.emailicon {
+    display: inline-block;
+    margin-top: -100px;
+    color: #bfbfbf;
+}
+
+.block {
+    color: #bfbfbf;
+}
+
+.error {
+    color: #dc3545;
+
+}
+
+.erorbox {
+    display: none;
+    margin-top: 20px;
+    margin-left: -250px;
+}
+.errorbox2 {
+    display: none;
+    margin-top: 20px;
+    margin-left: -250px;
+}
+.error1 {
+    color: #dc3545;
+}
+
+.box {
+    /* display: none; */
+}
+
+.blockbox {
+
+
+    margin-top: -50px;
+    margin-left: -200px;
+
+}
+
+.emailbox {
+    margin-top: -50px;
+    margin-left: -200px;
+}
+
+.animation {
+    animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake{
+
+    0%,
+    100% {
+        margin-left: 0;
+    }
+
+
+    20%,
+    80% {
+        margin-left: -2px;
+    }
+
+    40%,
+    60% {
+        margin-left: -2px;
+    }
+}
+
+.email:focus + .boxicon > .emailbox > .emailicon {
+     color: #2c52ed;
+}
+.password:focus + .boxicon > .blockbox > .block {
+     color: #2c52ed;
+}
+.email:focus {
+    border: 1px solid #2c52ed;
+}
+.password:focus {
+    border: 1px solid #2c52ed;
+}
+.btn:hover {
+    background-color: #2c52ed;
+}
+.text {
+    margin-top: -18px;
+    color: red;
+}
+.text2 {
+    margin-left: 38px;
+    margin-top: -18px;
+    color: red;
+}
+.red {
+    border: 1px solid red;
+}
