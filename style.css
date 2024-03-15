@@ -64,18 +64,17 @@ body {
     display: inline-block;
     margin-top: -100px;
     color: #bfbfbf;
-    margin-left: 110px;
+    margin-left: -110px;
 }
 
 .block {
-    margin-left: 110px;
+    margin-left: -110px;
     width: 16px;
     height: 16px;
     color: #bfbfbf;
 }
 
 .error {
-    margin-top: 5px;
     color: #dc3545;
 
 }
@@ -84,12 +83,12 @@ body {
     width: 16px;
     height: 16px;
     display: none;
-    margin-top: -18px;
+    margin-top: -32px;
     margin-left: 230px;
 }
 .errorbox2 {
     display: none;
-    margin-top: -18px;
+    margin-top: -38px;
     margin-left: 230px;
 }
 .error1 {
@@ -142,10 +141,10 @@ height: 16px;
     }
 }
 
-.email:focus + .boxicon > .emailbox > .emailicon {
+.email:focus +  .emailbox > .emailicon {
      color: #2c52ed;
 }
-.password:focus + .boxicon > .blockbox > .block {
+.password:focus +  .blockbox > .block {
      color: #2c52ed;
 }
 .email:focus {
